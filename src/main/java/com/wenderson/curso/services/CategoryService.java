@@ -15,7 +15,7 @@ public class CategoryService {
 	@Autowired
 	private CategoryRepository repository;
 	
-	//Retornar todos os usurios do banco de dados
+	//Retornar categories do banco de dados
 	public List<Category> findAll(){
 		return repository.findAll();
 	}
